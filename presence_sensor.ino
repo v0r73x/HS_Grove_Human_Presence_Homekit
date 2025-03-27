@@ -30,8 +30,8 @@ void setup() {
     }
 
     // Initialize HomeSpan
-    homeSpan.setWifiCredentials("NET", "66876687568375364208"); // Change to your WiFi credentials
-    homeSpan.setPairingCode("09654387"); // HomeKit pairing code
+    homeSpan.setWifiCredentials("SSID", "XXXXXXXXXXXXXXXXXXXXXXXXXXX"); // Change to your WiFi credentials
+    homeSpan.setPairingCode("09654111"); // HomeKit pairing code
     homeSpan.setControlPin(0);
     homeSpan.enableOTA(false); // Disable OTA updates
     homeSpan.begin(Category::Sensors, "HS Presence");
